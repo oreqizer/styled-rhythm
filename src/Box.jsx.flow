@@ -1,0 +1,17 @@
+/* @flow */
+import * as React from 'react';
+
+type Props<T> = {
+  as: string | React.ComponentType<T>,
+  theme: {
+    baseFont: number,
+    baseLineRatio: number,
+  },
+  height: number,
+  marginTop: number,
+  marginBottom: number,
+}
+
+type Box<T> = React.ComponentType<Props<T>>;
+
+declare export default Box<*>;
