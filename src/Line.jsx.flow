@@ -2,10 +2,10 @@
 import * as React from 'react';
 
 type Props<T> = {
-  as: string | React.ComponentType<T>,
+  as?: string | React.ComponentType<T>,
   theme: {
     baseFont: number,
-    baseLineRatio: number,
+    baseLineScale: number,
   },
   fontSize: number,
   marginTop: number,
