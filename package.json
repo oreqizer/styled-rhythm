@@ -68,7 +68,7 @@
   "jest": {
     "setupFiles": [
       "raf/polyfill",
-      "./etc/enzymeSetup.js"
+      "./etc/enzymeSetup"
     ]
   }
 }
