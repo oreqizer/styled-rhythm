@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "plugins": [
+    "flowtype"
+  ],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "jsx-a11y/href-no-hash": "off", // broken rule
+    "react/require-default-props": "off" // not nice in fn components
+  }
+}
