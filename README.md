@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/v/styled-rhythm.svg)](https://www.npmjs.com/package/styled-rhythm)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-**Box** and **Line** components for maintaining vertical rhythm with ease!
+**Box** and **Line** styled components for maintaining vertical rhythm with ease! Includes **Flow** types.
 
 ## Peer dependencies
 
