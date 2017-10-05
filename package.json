@@ -1,6 +1,6 @@
 {
   "name": "styled-rhythm",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Box & Line components for vertical rhythm.",
   "main": "lib/index.js",
   "module": "es/index.js",
