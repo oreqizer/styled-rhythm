@@ -28,7 +28,11 @@ const buildLib = () =>
     )
     .pipe(gulp.dest("./lib"));
 
-const build = gulp.parallel(buildEs, buildLib);
+const flowEs = () => gulp.src("./src/**/*.{js,jsx}.flow").pipe(gulp.dest("./es"));
+
+const flowLib = () => gulp.src("./src/**/*.{js,jsx}.flow").pipe(gulp.dest("./lib"));
+
+const build = gulp.series(gulp.parallel(buildEs, buildLib), gulp.parallel(flowEs, flowLib));
 
 module.exports = {
   build,
