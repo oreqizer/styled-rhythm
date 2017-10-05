@@ -1,8 +1,8 @@
 /* @flow */
 import * as React from 'react';
 
-type Props<T> = {
-  as?: string | React.ComponentType<T>,
+type Props = {
+  as?: string | React.ComponentType<*>,
   theme: {
     baseFont: number,
     baseLineScale: number,
@@ -13,6 +13,6 @@ type Props<T> = {
   border?: number,
 }
 
-type Line<T> = React.ComponentType<Props<T>>;
+type Line = React.ComponentType<Props>;
 
-declare export default Line<*>;
+declare export default Line;
