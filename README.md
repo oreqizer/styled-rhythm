@@ -66,7 +66,7 @@ Used for box elements such as `div`, `button`.
 
 #### Props
 
-* `as: React.ElementType<*> | string` - the component to render (default `div`)
+* `as: React.ComponentType<*> | string` - the component to render (default `div`)
 * `height: number` - element height relative to the base _line height_
 * `marginTop: number` - top margin relative to the base _line height_
 * `marginBottom: number` - bottom margin relative to the _base line height_
@@ -93,7 +93,7 @@ Used for text elements such as `span`, `a`.
 
 #### Props
 
-* `as: React.ElementType<*> | string` - the component to render (default `span`)
+* `as: React.ComponentType<*> | string` - the component to render (default `span`)
 * `fontSize: number` - font size relative to the base _font size_
 * `marginTop: number` - top margin relative to the base _line height_
 * `marginBottom: number` - bottom margin relative to the base _line height_
